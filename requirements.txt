@@ -1,0 +1,11 @@
+django
+djangorestframework
+markdown       # Markdown support for the browsable API.
+django-filter  # Filtering support
+fabric
+coverage>=3.0
+nose
+webtest
+django-nose
+django-webtest
+
