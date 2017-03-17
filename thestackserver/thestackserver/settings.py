@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'authentication',
     'django_nose',
+    'django_jenkins',
 ]
 
 MIDDLEWARE = [
@@ -124,5 +125,6 @@ STATIC_URL = '/static/'
 
 #TESTING
 
-TEST_RUNNER = "teamcity.django.TeamcityDjangoRunner"
+#JENKINS_TEST_RUNNER="django_jenkins.runner.CITestSuiteRunner"
+#TEST_RUNNER = "teamcity.django.TeamcityDjangoRunner"
 #NOSE_ARGS = ['--nocapture','--with-coverage','--cover-html','--cover-html-dir=%s' % os.path.join(BASE_DIR, 'cover', 'unit'),'--cover-package=thestackserver,authentication']

@@ -2,3 +2,5 @@
 *.pyc
 *.coverage
 thestackserver/cover/**
+thestackserver/reports/**
+*.swp
