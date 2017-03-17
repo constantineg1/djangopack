@@ -1,5 +1,5 @@
 from django.test import TestCase
 
 class AuthenticationTest(TestCase):
-	def test_fixed(self):
-		assert True
+	def test_faild(self):
+		assert False
