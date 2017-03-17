@@ -124,5 +124,5 @@ STATIC_URL = '/static/'
 
 #TESTING
 
-TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
-NOSE_ARGS = ['--nocapture','--with-coverage','--cover-html','--cover-html-dir=%s' % os.path.join(BASE_DIR, 'cover', 'unit'),'--cover-package=thestackserver,authentication']
+TEST_RUNNER = "teamcity.django.TeamcityDjangoRunner"
+#NOSE_ARGS = ['--nocapture','--with-coverage','--cover-html','--cover-html-dir=%s' % os.path.join(BASE_DIR, 'cover', 'unit'),'--cover-package=thestackserver,authentication']
