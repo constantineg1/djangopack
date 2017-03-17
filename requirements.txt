@@ -14,4 +14,3 @@ nose
 webtest
 django-nose
 django-webtest
-
