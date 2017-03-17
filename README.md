@@ -1,0 +1,2 @@
+# djangopack
+Django, TeamCity
