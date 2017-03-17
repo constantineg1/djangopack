@@ -1,3 +1,9 @@
+#required to make openssl compilation go smooth
+cffi		
+pycparser	
+pyparsing 	
+appdirs		
+
 django
 djangorestframework
 markdown       # Markdown support for the browsable API.
